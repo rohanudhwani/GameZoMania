@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GameZoMania</string>
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+    <string name="back4app_app_id">5iFKWOndeM7JUO7l1goTLtYXpWTS5wVrFagOfzP3</string>
+    <string name="back4app_client_key">JL70zEh15KQQ09ewce4cLetFebSBc4OC5BeK7oHn</string>
+    <string name="rules">Left swipe the red bars.\nRight swipe the yellow bars.\nThe time limit is 30 seconds for each round.\nAfter every round, 5 more added bars will be generated!</string>
+</resources>
