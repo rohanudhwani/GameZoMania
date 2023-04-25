@@ -11,11 +11,14 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.CountDownTimer;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.android.installreferrer.BuildConfig;
 import com.example.parseemailverification.Modelclass;
 
 import org.jetbrains.annotations.NotNull;
@@ -224,12 +227,30 @@ public class SwipeMainActivity extends AppCompatActivity {
     @Override
     public void onBackPressed() {
         super.onBackPressed();
+        aCounter.cancel();
         Intent intent = new Intent(SwipeMainActivity.this, GameChooseScreen.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
         startActivity(intent);
+
         finish();
     }
 
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu, menu);
+
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        if(item.getItemId() == R.id.info_item){
+            Toast.makeText(this, "This part of the app was made by Prateek Singh and you are using version: " + BuildConfig.VERSION_NAME, Toast.LENGTH_LONG).show();
+        }
+
+        return true;
+    }
 
 
 }

@@ -41,6 +41,7 @@
         android:layout_height="50dp"
         android:backgroundTint="@color/themeYellow"
         android:fontFamily="@font/zonaprobold"
+        android:hapticFeedbackEnabled="true"
         android:onClick="openLionOrTigerGame"
         android:text="Lion or Tiger Game"
         android:textColor="@color/themeBlack"

@@ -6,13 +6,19 @@ import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.os.Handler;
 import android.util.DisplayMetrics;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.android.installreferrer.BuildConfig;
+
 import java.util.Random;
 
 public class DotMainActivity extends AppCompatActivity {
@@ -38,24 +44,27 @@ public class DotMainActivity extends AppCompatActivity {
         countTextView = findViewById(R.id.countTextView);
         random = new Random();
 
-        CountDownTimer timer = new CountDownTimer(30000, 100) {
-            public void onTick(long millisUntilFinished) {
-                TextView timerTextView = findViewById(R.id.timerTextView);
-                timerTextView.setText("Time remaining: " + millisUntilFinished / 1000 + " seconds");
-            }
-
-            public void onFinish() {
-                Toast.makeText(DotMainActivity.this, "Game over! Your score was: " + count, Toast.LENGTH_SHORT).show();
-                handler.removeCallbacks(addDotRunnable);
-
-                Intent intentReset = new Intent(DotMainActivity.this, DotMainActivity.class);
-                intentReset.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
-                startActivity(intentReset);
-            }
-        }.start();
+        timer.start();
 
         handler.post(addDotRunnable);
     }
+
+    CountDownTimer timer = new CountDownTimer(30000, 100) {
+        public void onTick(long millisUntilFinished) {
+            TextView timerTextView = findViewById(R.id.timerTextView);
+            timerTextView.setText("Time remaining: " + millisUntilFinished / 1000 + " seconds");
+        }
+
+        public void onFinish() {
+
+            Toast.makeText(DotMainActivity.this, "Game over! Your score was: " + count, Toast.LENGTH_SHORT).show();
+            handler.removeCallbacks(addDotRunnable);
+
+            Intent intentReset = new Intent(DotMainActivity.this, DotMainActivity.class);
+            intentReset.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
+            startActivity(intentReset);
+        }
+    };
 
 
 
@@ -95,10 +104,27 @@ public class DotMainActivity extends AppCompatActivity {
     @Override
     public void onBackPressed() {
         super.onBackPressed();
+        timer.cancel();
         Intent intent = new Intent(DotMainActivity.this, GameChooseScreen.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
         startActivity(intent);
         finish();
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu, menu);
+
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        if(item.getItemId() == R.id.info_item){
+            Toast.makeText(this, "This part of the app was made by Advait Shendage and you are using version: " + BuildConfig.VERSION_NAME, Toast.LENGTH_LONG).show();
+        }
+
+        return true;
     }
 
 
