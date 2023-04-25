@@ -14,7 +14,7 @@ GameZoMania is ....
 .
 
 Version				Update on
-.				.
+1				.
 
 Requires Android		Content Rating 
 .				.
