@@ -23,8 +23,7 @@ Database: Back4App (non-SQL) https://www.back4app.com/
 
 - Installation Guide:
 
-Download and install from the apk file which is available in the repository.
-
+Download and install from the Google Play Store: [Click Here](https://play.google.com/store/apps/details?id=com.rohan.parseemailverification)
 - User Guide:
 
 After installation, open the GameZoMania app, register or log in, choose your game, and let the fun begin!
