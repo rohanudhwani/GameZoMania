@@ -55,7 +55,7 @@ After installation, open the GameZoMania app, register or log in, choose your ga
 
 ## Privacy Policy
 
-You can find the privacy policy [here](sites.google.com/view/gamezomania-privacy-policy/home)
+You can find the privacy policy [here](https://sites.google.com/view/gamezomania-privacy-policy/home)
 
 ## Credits
 
