@@ -53,9 +53,13 @@ Download and install from the Google Play Store: [GameZoMania on Google Play](ht
 
 After installation, open the GameZoMania app, register or log in, choose your game, and let the fun begin!
 
+## Privacy Policy
+
+You can find the privacy policy [here](sites.google.com/view/gamezomania-privacy-policy/home)
+
 ## Credits
 
-GameZoMania has been brought to life by a group of students from IIIT Nagpur as a course project. Each game author is credited within the respective game section.
+GameZoMania has been brought to life from IIIT Nagpur as a course project. Each game author is credited within the respective game section.
 
 ## Contributing
 
