@@ -37,6 +37,10 @@ GameZoMania has been brought to life from IIIT Nagpur as a course project. Each 
 
 Got ideas to improve GameZoMania? Feel free to fork the project, make your changes, and submit pull requests.
 
+## Privacy Policy
+
+Find the privacy policy for GameZoMania [here](https://sites.google.com/view/gamezomania-privacy-policy/home)
+
 ## License
 
 GameZoMania is an open-source software; see the [LICENSE](LICENSE) file for details.
