@@ -1,5 +1,7 @@
 # GameZoMania
 
+<img src="Images/icon.jpg" alt="GameZoMania Icon" width="100"/>
+
 Welcome to GameZoMania! A mini-games app for Android, offering three engaging games: 'Tiger - Lion', 'Slide', and 'Dot Game'.
 
 ## Introduction
@@ -25,21 +27,39 @@ GameZoMania is designed to bring fun and excitement to Android users. With a cle
 
 Download and install from the Google Play Store: [GameZoMania on Google Play](https://play.google.com/store/apps/details?id=com.rohan.parseemailverification)
 
+## Screenshots
+
+- **Login Screen:**
+
+  <img src="Images/login.jpeg" alt="Login Screen" width="200"/>
+
+- **Choose Game Screen:**
+
+  <img src="Images/choose.jpeg" alt="Choose Game Screen" width="200"/>
+
+- **Game 1 Screen:**
+
+  <img src="Images/game1screen.jpeg" alt="Game 1 Screen" width="200"/>
+
+- **Game 2 Screen:**
+
+  <img src="Images/game2screen.jpeg" alt="Game 2 Screen" width="200"/>
+
+- **Game 3 Screen:**
+
+  <img src="Images/game3screen.jpeg" alt="Game 3 Screen" width="200"/>
+
 ## User Guide
 
 After installation, open the GameZoMania app, register or log in, choose your game, and let the fun begin!
 
 ## Credits
 
-GameZoMania has been brought to life from IIIT Nagpur as a course project. Each game author is credited within the respective game section.
+GameZoMania has been brought to life by a group of students from IIIT Nagpur as a course project. Each game author is credited within the respective game section.
 
 ## Contributing
 
 Got ideas to improve GameZoMania? Feel free to fork the project, make your changes, and submit pull requests.
-
-## Privacy Policy
-
-Find the privacy policy for GameZoMania [here](https://sites.google.com/view/gamezomania-privacy-policy/home)
 
 ## License
 
