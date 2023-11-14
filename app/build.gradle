@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.parseemailverification'
+    namespace 'com.rohan.parseemailverification'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.parseemailverification"
+        applicationId "com.rohan.parseemailverification"
         minSdk 21
         targetSdk 33
         versionCode 1
