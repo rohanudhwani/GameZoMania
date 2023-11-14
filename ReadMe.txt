@@ -1,42 +1,42 @@
-**************************************
-******* GameZoMania README ***********
-**************************************
+# GameZoMania
 
-- Introduction:
+Welcome to GameZoMania! A mini-games app for Android, offering three engaging games: 'Tiger - Lion', 'Slide', and 'Dot Game'.
 
-Welcome to GameZoMania! It's a mini-games app for Android, bringing fun and engaging experiences to users. The app features three different games: 'Tiger - Lion', 'Slide', and 'Dot Game'.
+## Introduction
 
-- Technical Specifications:
+GameZoMania is designed to bring fun and excitement to Android users. With a clever mix of strategy, speed, and reflex challenges, this app is your go-to source for quick and enjoyable gaming experiences.
 
-Platform: Android 9 (Native)
-Programming Language: Java (JDK-20)
-Development Environment: Android Studio 2022.2.1.20 
-Database: Back4App (non-SQL) https://www.back4app.com/
+## Technical Specifications
 
-- Game Features:
+- **Platform:** Android 9 (Native)
+- **Programming Language:** Java (JDK-20)
+- **Development Environment:** Android Studio 2022.2.1.20 
+- **Database:** [Back4App](https://www.back4app.com/) (non-SQL)
 
-1) Tiger - Lion: This game is a clever take on classic tick-tack-toe, where strategy and planning rule the day.
+## Game Features
 
-2) Slide: Get your adrenaline pumping with this high-speed challenge. Slide as many rectangles as you can within a given time.
+1. **Tiger - Lion:** A clever take on classic tic-tac-toe where strategy and planning rule the day.
 
-3) Dot Game: Test your reflexes and speed. Can you touch as many dots as possible in the given time?
+2. **Slide:** Get your adrenaline pumping with this high-speed challenge. Slide as many rectangles as you can within a given time.
 
-- Installation Guide:
+3. **Dot Game:** Test your reflexes and speed. Can you touch as many dots as possible in the given time?
 
-Download and install from the Google Play Store: [Click Here](https://play.google.com/store/apps/details?id=com.rohan.parseemailverification)
-- User Guide:
+## Installation Guide
+
+Download and install from the Google Play Store: [GameZoMania on Google Play](https://play.google.com/store/apps/details?id=com.rohan.parseemailverification)
+
+## User Guide
 
 After installation, open the GameZoMania app, register or log in, choose your game, and let the fun begin!
 
-- Credits:
+## Credits
 
-GameZoMania has been brought to life by a group of students of IIIT Nagpur as a course project. Each game author is credited within the respective game section.
+GameZoMania has been brought to life from IIIT Nagpur as a course project. Each game author is credited within the respective game section.
 
-- Contributing:
+## Contributing
 
-Got ideas to rove GameZoMania? Feel free to fork the project, make your changes, and submit pull requests.
+Got ideas to improve GameZoMania? Feel free to fork the project, make your changes, and submit pull requests.
 
-- License:
+## License
 
-GameZoMania is an open-source software; see the LICENSE file for details.
-
+GameZoMania is an open-source software; see the [LICENSE](LICENSE) file for details.
